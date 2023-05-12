@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+header {
+    border-bottom: 25px solid rgb(255, 255, 255); 
+   
+}  
+
+.imglg{
+    width: 10%;
+    height: auto;
+}
+.txt{
+    color: aliceblue;
+}
+.imglg {
+    float: left; /* alinha a imagem à esquerda */
+    margin-right: 20px; /* adiciona uma margem à direita para separar a imagem dos textos */
+  }
+  
+  .txtd {
+    display: inline-block; /* exibe os elementos como um bloco de linha para que fiquem ao lado da imagem */
+    vertical-align: top; /* alinha os elementos ao topo da imagem */
+    margin-left: 20px;
+  }
+  .tenis{
+    float: right;
+    width: 550px;
+    height: auto;
+  }
+  .pp{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: helvetica;
+  }
+  .txta{
+    position: absolute;
+    align-items: center;
+    top: 20%;
+    left: 0%;
+    padding-left: 50px;
+  }
+  .pp1{
+    color: aliceblue;
+    font-size: 17px;
+    font-family: arial;
+  }
+  .pp1:hover{
+    color: blueviolet;
+    font-size: larger;
+  }
+  .pp2{
+    color: rgb(206, 24, 24);
+    font-size: 17px;
+    font-family: arial;
+  }
+  .pp3{
+    color: rgb(34, 167, 17);
+    font-size: 17px;
+    font-family: arial;
+  }
+  .pp4{
+    color: aliceblue;
+    font-size: 17px;
+    font-family: arial;
+  }
+  .ta {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+  }
+  .btt{
+    background-image: linear-gradient(to bottom, #3d40dd, #650768);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  
+  }
+  .btt:hover{
+    font-size: larger;
+  }
+  
+
+  
